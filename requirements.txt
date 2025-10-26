@@ -1,0 +1,22 @@
+speechrecognition
+pyttsx3
+requests
+google-generativeai
+selenium
+webdriver-manager
+pyaudio
+
+✅ Steps to Add It:
+
+In your Jarvis project folder, create a new file named requirements.txt.
+
+Copy the above lines into it.
+
+Save the file.
+
+When someone clones your repo, they can simply run:
+
+pip install -r requirements.txt
+
+
+and all dependencies will install automatically.
