@@ -15,16 +15,12 @@ newsapi = os.getenv("NEWS_API_KEY")
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "80cad0972d7544098d4f3bbd1a418ade"
 
 def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-def ask_gemini(command):
-
-  
-    API_KEY = "AIzaSyAS2DDf99WZjiK1no0jk_fK5xPEImofHL4"
+def ask_gemini(command)
 
     
     genai.configure(api_key=API_KEY)
